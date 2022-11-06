@@ -15,7 +15,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "thereisnospoon/package-geo-interface": "*",
+        "thereisnospoon/package-geo-interface": "1.0",
         "laravel/framework": "^9.19"
     }
 }
