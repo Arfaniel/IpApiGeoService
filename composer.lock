@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bfa8cf909971d38da24f3a70971fd992",
+    "content-hash": "4500d469226c94fdeeea906f6076be24",
     "packages": [
         {
             "name": "brick/math",
@@ -576,12 +576,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "c76c3bdddf3bac41f92bbcaddb50d1053d0011f2"
+                "reference": "033b95639247647542c93990123ed84121965027"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/c76c3bdddf3bac41f92bbcaddb50d1053d0011f2",
-                "reference": "c76c3bdddf3bac41f92bbcaddb50d1053d0011f2",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/033b95639247647542c93990123ed84121965027",
+                "reference": "033b95639247647542c93990123ed84121965027",
                 "shasum": ""
             },
             "require": {
@@ -755,7 +755,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-11-04T21:12:41+00:00"
+            "time": "2022-11-06T16:30:49+00:00"
         },
         {
             "name": "laravel/serializable-closure",
@@ -4338,6 +4338,43 @@
             "time": "2022-11-02T09:08:04+00:00"
         },
         {
+            "name": "thereisnospoon/package-geo-interface",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Arfaniel/package-geo-interface.git",
+                "reference": "e22bc8ccc0bb2168760f1038aea42605e1662bdd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Arfaniel/package-geo-interface/zipball/e22bc8ccc0bb2168760f1038aea42605e1662bdd",
+                "reference": "e22bc8ccc0bb2168760f1038aea42605e1662bdd",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Vagrant\\Geo\\PackageGeoInterface\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ivan.avramenko"
+                }
+            ],
+            "description": "short description",
+            "support": {
+                "issues": "https://github.com/Arfaniel/package-geo-interface/issues",
+                "source": "https://github.com/Arfaniel/package-geo-interface/tree/master"
+            },
+            "time": "2022-11-06T16:58:39+00:00"
+        },
+        {
             "name": "tijsverkoyen/css-to-inline-styles",
             "version": "dev-master",
             "source": {
@@ -4390,33 +4427,6 @@
                 "source": "https://github.com/tijsverkoyen/CssToInlineStyles/tree/master"
             },
             "time": "2022-09-12T15:15:19+00:00"
-        },
-        {
-            "name": "vagrant/package-geo-interface",
-            "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "../package-geo-interface",
-                "reference": "6029c274fa2c31bb61f1d9f03cb57c5c696a5b7f"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Vagrant\\Geo\\PackageGeoInterface\\": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "ivan.avramenko"
-                }
-            ],
-            "description": "short description",
-            "transport-options": {
-                "relative": true
-            }
         },
         {
             "name": "vlucas/phpdotenv",

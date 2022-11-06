@@ -15,11 +15,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "vagrant/package-geo-interface": "*",
+        "thereisnospoon/package-geo-interface": "*",
         "laravel/framework": "^9.19"
-    },
-    "repositories": [{
-        "type": "path",
-        "url": "../package-geo-interface"
-    }]
+    }
 }
