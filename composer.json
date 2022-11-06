@@ -1,0 +1,25 @@
+{
+    "name": "aios/package-geo-ip-api-geo-service",
+    "description": "first test service",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vagrant\\PackageGeoIpApiGeoService\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ivan.avramenko"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "vagrant/package-geo-interface": "*",
+        "laravel/framework": "^9.19"
+    },
+    "repositories": [{
+        "type": "path",
+        "url": "../package-geo-interface"
+    }]
+}
